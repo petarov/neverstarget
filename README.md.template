@@ -1,9 +1,27 @@
 neverstarget
 ==============
 
-_Your Github stars come here to die._
+All of your starred Github projects in one list. You never check on them anyway.
 
-A list of all starred Github projects.
+# How to use
+
+1. Create a new, empty repository on GitHub under your **user** account (not an orga).
+2. Copy this repo without its history and push it to yours:
+
+   ```sh
+   git clone --depth 1 https://github.com/petarov/neverstarget.git my-stars
+   cd my-stars
+   rm -rf .git
+   git init -b main
+   git add .
+   git commit -m "Initial commit"
+   git remote add origin https://github.com/<your-login>/<your-repo>.git
+   git push -u origin main
+   ```
+
+3. Make sure GitHub Actions is enabled, i.e., open the repo's **Actions** tab and enable workflows.
+4. The push to `main` starts the **Update README with star lists** workflow. You can also run it any time from **Actions/Run workflow**.
+5. The workflow regenerates `README.md` with your public star lists and commits it back to `main`.
 
 # Starred
 
