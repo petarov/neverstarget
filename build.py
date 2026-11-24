@@ -148,7 +148,7 @@ def render_section(title: str, description: str | None, repos: list[dict]) -> li
         entry = f"- **[{repo['nameWithOwner']}]({repo['url']})**"
         parts = []
         if repo.get("isArchived"):
-            parts.append("**(archived)**")
+            parts.append("`(archived)`")
         repo_desc = one_line(repo["description"])
         if repo_desc:
             parts.append(repo_desc)
