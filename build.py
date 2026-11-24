@@ -10,6 +10,7 @@ Usage: GITHUB_TOKEN=... uv run build.py <login>
 import json
 import os
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -126,8 +127,20 @@ def one_line(text: str | None) -> str:
     return " ".join(text.split()) if text else ""
 
 
+EMOJI_CATEGORIES = {"So", "Sk", "Cf"}  # symbols, skin-tone modifiers, ZWJ
+VARIATION_SELECTORS = {"︎", "️"}
+
+
+def sort_key(name: str) -> tuple[str, str]:
+    stripped = "".join(
+        c for c in name
+        if unicodedata.category(c) not in EMOJI_CATEGORIES and c not in VARIATION_SELECTORS
+    )
+    return (" ".join(stripped.split()).casefold(), name.casefold())
+
+
 def render_section(title: str, description: str | None, repos: list[dict]) -> list[str]:
-    lines = [f"## {one_line(title)}", ""]
+    lines = [f"## {one_line(title)} ({len(repos)})", ""]
     desc = one_line(description)
     if desc:
         lines += [desc, ""]
@@ -144,7 +157,7 @@ def render_section(title: str, description: str | None, repos: list[dict]) -> li
 def render(lists: list[dict], stars: list[dict]) -> str:
     lines: list[str] = []
     listed = set()
-    for lst in lists:
+    for lst in sorted(lists, key=lambda l: sort_key(l["name"])):
         lines += render_section(lst["name"], lst["description"], lst["repos"])
         listed.update(r["nameWithOwner"] for r in lst["repos"])
     other = [r for r in stars if r["nameWithOwner"] not in listed]
