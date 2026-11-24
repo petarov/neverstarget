@@ -1,3 +1,7 @@
+<p align="left">
+<img src="assets/neverstarget.png" alt="Exploding star image" width="180"/>
+</p>
+
 neverstarget
 ==============
 
@@ -771,7 +775,7 @@ js/typescript libs and other web frameworks
 - **[iconify/iconify](https://github.com/iconify/iconify)** — Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!
 - **[andybrewer/mvp](https://github.com/andybrewer/mvp)** — MVP.css — Minimalist classless CSS stylesheet for HTML elements
 
-## Other (163)
+## Other (164)
 
 - **[kazu-yamamoto/pgpdump](https://github.com/kazu-yamamoto/pgpdump)** — A PGP packet visualizer
 - **[ValyriaTear/ValyriaTear](https://github.com/ValyriaTear/ValyriaTear)** — Open Source J-RPG (Based on the Hero of Allacrost engine)
@@ -936,3 +940,4 @@ js/typescript libs and other web frameworks
 - **[zitadel/zitadel](https://github.com/zitadel/zitadel)** — ZITADEL - Identity infrastructure, simplified for you.
 - **[josh-blake/pixie](https://github.com/josh-blake/pixie)** — A Raspberry Pi 5 GPS Time Disciplined Stratum 1 Time Server with PTP and Realtime Kernel
 - **[micromdm/micromdm](https://github.com/micromdm/micromdm)** — Mobile Device Management server
+- **[petarov/neverstarget](https://github.com/petarov/neverstarget)** — A list of all your starred repos lists
