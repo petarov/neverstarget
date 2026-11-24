@@ -21,7 +21,7 @@ OUTPUT = Path("README.md")
 PLACEHOLDER = "__STARRED__"
 PAGE = 100
 
-REPO_FIELDS = "__typename ... on Repository { nameWithOwner url description }"
+REPO_FIELDS = "__typename ... on Repository { nameWithOwner url description isArchived }"
 
 LISTS_QUERY = f"""
 query($login: String!, $after: String) {{
@@ -52,7 +52,7 @@ query($login: String!, $after: String) {{
   user(login: $login) {{
     starredRepositories(first: {PAGE}, after: $after) {{
       pageInfo {{ hasNextPage endCursor }}
-      nodes {{ nameWithOwner url description }}
+      nodes {{ nameWithOwner url description isArchived }}
     }}
   }}
 }}
@@ -146,9 +146,14 @@ def render_section(title: str, description: str | None, repos: list[dict]) -> li
         lines += [desc, ""]
     for repo in repos:
         entry = f"- **[{repo['nameWithOwner']}]({repo['url']})**"
+        parts = []
+        if repo.get("isArchived"):
+            parts.append("**(archived)**")
         repo_desc = one_line(repo["description"])
         if repo_desc:
-            entry += f" — {repo_desc}"
+            parts.append(repo_desc)
+        if parts:
+            entry += " — " + " ".join(parts)
         lines.append(entry)
     lines.append("")
     return lines
