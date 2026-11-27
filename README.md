@@ -114,7 +114,7 @@ LLMs, ML, RL, etc.
 - **[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)** — ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
 - **[0cv/herdr-mobile-relay](https://github.com/0cv/herdr-mobile-relay)** — Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer relays over Cloudflare, WebRTC or Tailscale connections.
 
-## 🖥️ desktop/cli-apps (51)
+## 🖥️ desktop/cli-apps (52)
 
 Useful apps or extensions to run on the desktop
 
@@ -169,6 +169,7 @@ Useful apps or extensions to run on the desktop
 - **[matthart1983/netwatch](https://github.com/matthart1983/netwatch)** — Network diagnostics in your terminal. Inspect traffic, connections and network behaviour. Built with Rust.
 - **[jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)** —  This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.
 - **[storytold/photocraft](https://github.com/storytold/photocraft)** — PhotoCraft: An open-source photo editor written from scratch in pure Rust
+- **[santinic/how2](https://github.com/santinic/how2)** — AI for the Command Line
 
 ## 🛠️ dev-tools (64)
 
@@ -239,7 +240,7 @@ Tools and frameworks - language independent
 - **[lysyi3m/macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes)** — Color schemes for default macOS Terminal.app
 - **[usebruno/bruno](https://github.com/usebruno/bruno)** — Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
 
-## 🕹️ gfx-&-game-dev (93)
+## 🕹️ gfx-&-game-dev (95)
 
 Various gamedev libs, frameworks or complete games
 
@@ -336,6 +337,8 @@ Various gamedev libs, frameworks or complete games
 - **[vengi-voxel/vengi](https://github.com/vengi-voxel/vengi)** — free and open source voxel art tools - editor, thumbnailer and format converter
 - **[aldegad/sprite-gen](https://github.com/aldegad/sprite-gen)** — Generate clean 2D game sprites & animation atlases — component-row pipeline: state rows, alpha cleanup, frame extraction, runtime atlases. Codex/Claude skill.
 - **[dday9/t-pico](https://github.com/dday9/t-pico)** — Minimal CSS Framework for semantic HTML forked from PicoCSS
+- **[toji/gl-matrix](https://github.com/toji/gl-matrix)** — Javascript Matrix and Vector library for High Performance WebGL apps
+- **[processing/p5.js](https://github.com/processing/p5.js)** — p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org
 
 ## 🩵 go-dev (65)
 
@@ -506,7 +509,7 @@ Java libs
 - **[gradle/gradle-completion](https://github.com/gradle/gradle-completion)** — Gradle tab completion for bash and zsh
 - **[runningcode/gradle-doctor](https://github.com/runningcode/gradle-doctor)** — The right prescription for your Gradle build.
 
-## 💡 knowledge (81)
+## 💡 knowledge (82)
 
 Books, data, lists, recipes, etc.
 
@@ -591,6 +594,7 @@ Books, data, lists, recipes, etc.
 - **[career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)** — Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and an application tracker. It helps you fill in each application; you press Submit. Runs locally in Codex, OpenCode and other AI CLIs, or as a Claude Code plugin.
 - **[dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)** — 🌍 Discover our global repository of countries, states, and cities! 🏙️ Get comprehensive data in JSON, SQL, PSQL, SQLSERVER, MONGODB, SQLITE, XML, YAML, and CSV formats. Access ISO2, ISO3 codes, country code, capital, native language, timezones (for countries), and more. #countries #states #cities
 - **[BraveOPotato/NoSignups](https://github.com/BraveOPotato/NoSignups)** — A list of tools that are open-source, in-browser, and require no-signups!
+- **[ericdrowell/BigOCheatSheet](https://github.com/ericdrowell/BigOCheatSheet)**
 
 ## 🤖 MCP (10)
 
@@ -607,7 +611,7 @@ MCP Tools
 - **[ai-tools-all/grep_app_mcp](https://github.com/ai-tools-all/grep_app_mcp)** — MCP for grep.app
 - **[petarov/starghlist](https://github.com/petarov/starghlist)** — MCP server to manage your GitHub starred repositories and lists
 
-## 📱mdm (9)
+## 📱mdm (12)
 
 - **[microsoftconnect/ms-intune-app-sdk-ios](https://github.com/microsoftconnect/ms-intune-app-sdk-ios)** — Intune App SDK for iOS enables data protection and mobile app management features in iOS mobile apps with Microsoft Intune
 - **[micromdm/nanomdm](https://github.com/micromdm/nanomdm)** — NanoMDM is a minimalist Apple MDM server and library heavily inspired by MicroMDM
@@ -618,6 +622,9 @@ MCP Tools
 - **[jessepeterson/kmfddm](https://github.com/jessepeterson/kmfddm)** — KMFDDM is an Apple Declarative Device Management (DDM) server. It works together with NanoMDM.
 - **[apple/device-management](https://github.com/apple/device-management)** — Device management schema data for MDM.
 - **[rtrouton/profiles](https://github.com/rtrouton/profiles)** — Management profiles for OS X / macOS
+- **[munki/munki](https://github.com/munki/munki)** — Managed software installation for macOS —
+- **[micromdm/micromdm](https://github.com/micromdm/micromdm)** — Mobile Device Management server
+- **[fleetdm/fleet](https://github.com/fleetdm/fleet)** — Open device management
 
 ## 🎸music-audio (17)
 
@@ -689,7 +696,7 @@ Services and platforms - runnable on Docker or VPS
 - **[traefik/traefik](https://github.com/traefik/traefik)** — The Cloud Native Application Proxy
 - **[pgsty/silo](https://github.com/pgsty/silo)** — S3-Compatible Object Storage. A MinIO fork maintained by PGSTY
 
-## 👾 re-game (11)
+## 👾 re-game (12)
 
 rewrite/recomp/decomp games
 
@@ -698,12 +705,13 @@ rewrite/recomp/decomp games
 - **[MaddoScientisto/Crusader-Map-Viewer](https://github.com/MaddoScientisto/Crusader-Map-Viewer)** — A map viewer for Crusader: No Remorse and Crusader: No Regret
 - **[rhuizer/alleycat](https://github.com/rhuizer/alleycat)** — An open source IBM AlleyCat 1984 implementation
 - **[petarov/alleycat.exe](https://github.com/petarov/alleycat.exe)** — x86_64 recompilation of Alley Cat - a video game by Bill Williams for Atari (1983) and IBM PC (1984)
-- **[sebsebseb1982/crusader-no-remorse-decomp](https://github.com/sebsebseb1982/crusader-no-remorse-decomp)**
+- **[sebsebseb1982/crusader-no-remorse-decomp](https://github.com/sebsebseb1982/crusader-no-remorse-decomp)** — No pity... No mercy... No Remorse.
 - **[SubmitGame/awesome-decomp-games](https://github.com/SubmitGame/awesome-decomp-games)** — Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.
 - **[petarov/saboteur2](https://github.com/petarov/saboteur2)** — A recompilation of Saboteur II: Avenging Angel (1987) from its original DOS executable to x86_64 platforms
 - **[missingno7/pre2_port](https://github.com/missingno7/pre2_port)** — Prehistorik 2 DOS_RE Source-Port Workbench
 - **[Pyrdacor/freeserf.net](https://github.com/Pyrdacor/freeserf.net)** — Settlers 1 clone written in C#
 - **[grovdata/RodLegacy](https://github.com/grovdata/RodLegacy)** — A modern reimplementation of Street Rod 1&2
+- **[OpenDUNE/OpenDUNE](https://github.com/OpenDUNE/OpenDUNE)** — DUNE, REINVENTED
 
 ## 🦀 rust-dev (2)
 
@@ -712,7 +720,7 @@ rust libs, tools, learn
 - **[ferrous-systems/rust-training](https://github.com/ferrous-systems/rust-training)** — Learning materials for the Rust Training courses by Ferrous Systems
 - **[microsoft/RustTraining](https://github.com/microsoft/RustTraining)** — Beginner, advanced, expert level Rust training material
 
-## 🕸️ web-dev (58)
+## 🕸️ web-dev (62)
 
 js/typescript libs and other web frameworks
 
@@ -774,20 +782,21 @@ js/typescript libs and other web frameworks
 - **[dbohdan/classless-css](https://github.com/dbohdan/classless-css)** — A list of classless CSS themes/frameworks with screenshots
 - **[iconify/iconify](https://github.com/iconify/iconify)** — Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!
 - **[andybrewer/mvp](https://github.com/andybrewer/mvp)** — MVP.css — Minimalist classless CSS stylesheet for HTML elements
+- **[bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)** — Making AJAX as easy as anchor tags
+- **[jsfiddle/togetherjs](https://github.com/jsfiddle/togetherjs)** — A service for your website that makes it surprisingly easy to collaborate in real-time.
+- **[chartist-js/chartist](https://github.com/chartist-js/chartist)** — Simple responsive charts
+- **[cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)** — The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
 
-## Other (164)
+## Other (141)
 
 - **[kazu-yamamoto/pgpdump](https://github.com/kazu-yamamoto/pgpdump)** — A PGP packet visualizer
 - **[ValyriaTear/ValyriaTear](https://github.com/ValyriaTear/ValyriaTear)** — Open Source J-RPG (Based on the Hero of Allacrost engine)
 - **[nullptrlabs/pgmodeler](https://github.com/nullptrlabs/pgmodeler)** — Open-source data modeling tool designed for PostgreSQL. No more typing DDL commands. Let pgModeler do the work for you!
 - **[jedisct1/libsodium](https://github.com/jedisct1/libsodium)** — A modern, portable, easy to use crypto library.
-- **[ericdrowell/BigOCheatSheet](https://github.com/ericdrowell/BigOCheatSheet)**
 - **[Blizzard/s2protocol](https://github.com/Blizzard/s2protocol)** — Python library to decode StarCraft II replay protocols
 - **[clippyjs/clippy.js](https://github.com/clippyjs/clippy.js)** — Add Clippy or his friends to any website for instant nostalgia.
 - **[lapo-luchini/asn1js](https://github.com/lapo-luchini/asn1js)** — JavaScript generic ASN.1 parser
 - **[glfw/glfw](https://github.com/glfw/glfw)** — A multi-platform library for OpenGL, OpenGL ES, Vulkan, window and input
-- **[toji/gl-matrix](https://github.com/toji/gl-matrix)** — Javascript Matrix and Vector library for High Performance WebGL apps
-- **[stemkoski/stemkoski.github.com](https://github.com/stemkoski/stemkoski.github.com)**
 - **[medialize/URI.js](https://github.com/medialize/URI.js)** — Javascript URL mutation library
 - **[adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)** — Code documentation written as code! How novel and totally my idea!
 - **[zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** — A Smart Ethernet Switch for Earth
@@ -795,7 +804,6 @@ js/typescript libs and other web frameworks
 - **[greensock/GSAP](https://github.com/greensock/GSAP)** — GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web
 - **[verekia/initializr](https://github.com/verekia/initializr)** — HTML5 Boilerplate Build Tool
 - **[zzzprojects/sqlfiddle](https://github.com/zzzprojects/sqlfiddle)**
-- **[jsfiddle/togetherjs](https://github.com/jsfiddle/togetherjs)** — A service for your website that makes it surprisingly easy to collaborate in real-time.
 - **[EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)** — :books: Freely available programming books
 - **[jstherightway/js-the-right-way](https://github.com/jstherightway/js-the-right-way)** — An easy-to-read, quick reference for JS best practices, accepted coding standards, and links around the Web
 - **[pump-io/pump.io](https://github.com/pump-io/pump.io)** — Social server with an ActivityStreams API
@@ -804,12 +812,10 @@ js/typescript libs and other web frameworks
 - **[hoodiehq/hoodie](https://github.com/hoodiehq/hoodie)** — :dog: The Offline First JavaScript Backend
 - **[geraintluff/tv4](https://github.com/geraintluff/tv4)** — Tiny Validator for JSON Schema v4
 - **[gka/chroma.js](https://github.com/gka/chroma.js)** — JavaScript library for all kinds of color manipulations
-- **[chartist-js/chartist](https://github.com/chartist-js/chartist)** — Simple responsive charts
 - **[claritylab/lucida](https://github.com/claritylab/lucida)** — Speech and Vision Based Intelligent Personal Assistant
 - **[0xAX/linux-insides](https://github.com/0xAX/linux-insides)** — A book-in-progress about the Linux kernel and its insides.
 - **[wsargent/docker-cheat-sheet](https://github.com/wsargent/docker-cheat-sheet)** — Docker Cheat Sheet
 - **[h2o/h2o](https://github.com/h2o/h2o)** — H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server
-- **[astoilkov/jsblocks](https://github.com/astoilkov/jsblocks)** — 2012 UI framework (I was 20 years old, React didn't exist, inspired by Knockout)
 - **[pgilad/leasot](https://github.com/pgilad/leasot)** — Parse and output TODOs and FIXMEs from comments in your files
 - **[paperjs/paper.js](https://github.com/paperjs/paper.js)** — The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey
 - **[nvie/gitflow](https://github.com/nvie/gitflow)** — `(archived)` Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
@@ -821,7 +827,6 @@ js/typescript libs and other web frameworks
 - **[jgm/pandoc](https://github.com/jgm/pandoc)** — Universal markup converter
 - **[miki151/keeperrl](https://github.com/miki151/keeperrl)** — Source code of KeeperRL
 - **[JuanPotato/Legofy](https://github.com/JuanPotato/Legofy)** — Make images look as if they are made out of 1x1 LEGO blocks
-- **[pjreddie/darknet](https://github.com/pjreddie/darknet)** — Convolutional Neural Networks
 - **[sharpbracket/redshift](https://github.com/sharpbracket/redshift)** — `(archived)` Redshift adjusts the color temperature of your screen according to your surroundings. This may help your eyes hurt less if you are working in front of the screen at night.
 - **[opengaming/osgameclones](https://github.com/opengaming/osgameclones)** — Open Source Clones of Popular Games
 - **[0ad/0ad](https://github.com/0ad/0ad)** — `(archived)` [DEPRECATED] Git mirror of the 0 A.D. SVN source code (migrated to https://gitea.wildfiregames.com on August 20th 2024)
@@ -830,47 +835,37 @@ js/typescript libs and other web frameworks
 - **[Keith-S-Thompson/how-to-c-response](https://github.com/Keith-S-Thompson/how-to-c-response)** — A critique of "How to C in 2016"
 - **[ronf/asyncssh](https://github.com/ronf/asyncssh)** — AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2 protocol on top of the Python asyncio framework.
 - **[awesomedata/awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)** — A topic-centric list of HQ open datasets.
-- **[santinic/how2](https://github.com/santinic/how2)** — AI for the Command Line
 - **[AppImage/AppImageKit](https://github.com/AppImage/AppImageKit)** — Package desktop applications as AppImages that run on common Linux-based operating systems, such as RHEL, CentOS, openSUSE, SLED, Ubuntu, Fedora, debian and derivatives. Join #AppImage on irc.libera.chat
 - **[Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots](https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots)** — Introduction to Autonomous Robots
 - **[concurrencykit/ck](https://github.com/concurrencykit/ck)** — Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 - **[gittup/tup](https://github.com/gittup/tup)** — Tup is a file-based build system.
 - **[mortenjust/cleartext-mac](https://github.com/mortenjust/cleartext-mac)** — A text editor that will help you write clearer and simpler
-- **[processing/p5.js](https://github.com/processing/p5.js)** — p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. Looking for p5.js 2.0? http://beta.p5js.org
 - **[auth0/auth0.js](https://github.com/auth0/auth0.js)** — Auth0 headless browser sdk
 - **[vicoyeh/pointers-for-software-engineers](https://github.com/vicoyeh/pointers-for-software-engineers)** — A curated list of topics to start learning software engineering
 - **[a1studmuffin/SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator)** — A Blender script to procedurally generate 3D spaceships
 - **[inkle/inky](https://github.com/inkle/inky)** — An editor for ink: inkle's narrative scripting language
 - **[chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)** — Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.
-- **[diffplug/goomph](https://github.com/diffplug/goomph)** — IDE as build artifact
 - **[stateless4j/stateless4j](https://github.com/stateless4j/stateless4j)** — Lightweight Java State Machine
 - **[tj/git-extras](https://github.com/tj/git-extras)** — GIT utilities -- repo summary, repl, changelog population, author commit percentages and more
 - **[pavel-odintsov/fastnetmon](https://github.com/pavel-odintsov/fastnetmon)** — Very fast DDoS sensor with sFlow/Netflow/IPFIX/SPAN support
 - **[elendirx/web2web](https://github.com/elendirx/web2web)** — P2P web powered by torrents and blockchain.
-- **[deepstreamIO/deepstream.io](https://github.com/deepstreamIO/deepstream.io)** — deepstream.io server
 - **[ReFirmLabs/binwalk](https://github.com/ReFirmLabs/binwalk)** — Firmware Analysis Tool
 - **[socketio/engine.io](https://github.com/socketio/engine.io)** — The engine used in the Socket.IO JavaScript server, which manages the low-level transports such as HTTP long-polling and WebSocket.
 - **[aerkalov/ebooklib](https://github.com/aerkalov/ebooklib)** — A versatile Python library for EPUB2/EPUB3 manipulation and processing.
 - **[bitwarden/clients](https://github.com/bitwarden/clients)** — Bitwarden client apps (web, browser extension, desktop, and cli).
 - **[ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)** — A complete daily plan for studying to become a machine learning engineer.
-- **[antoniodeluca/dn2a](https://github.com/antoniodeluca/dn2a)** — Dynamic Neural Networks Architect
-- **[bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)** — Making AJAX as easy as anchor tags
 - **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** — 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
-- **[WhitestormJS/whs.js](https://github.com/WhitestormJS/whs.js)** — :rocket: 🌪 Super-fast 3D framework for Web Applications 🥇 & Games 🎮. Based on Three.js
 - **[Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)** — List of Computer Science courses with video lectures.
 - **[qiao/PathFinding.js](https://github.com/qiao/PathFinding.js)** — A comprehensive path-finding library for grid based games
 - **[n0shake/Public-APIs](https://github.com/n0shake/Public-APIs)** — 📚 A public list of APIs from round the web.
 - **[palatable/lambda](https://github.com/palatable/lambda)** — Functional patterns for Java
 - **[bitfighter/bitfighter](https://github.com/bitfighter/bitfighter)** — The Bitfighter source code
-- **[sentilo/sentilo](https://github.com/sentilo/sentilo)** — Sentilo platform
 - **[jpillora/chisel](https://github.com/jpillora/chisel)** — A fast TCP/UDP tunnel over HTTP
-- **[vasanthk/react-bits](https://github.com/vasanthk/react-bits)** — ✨ React patterns, techniques, tips and tricks ✨
 - **[skeeto/enchive](https://github.com/skeeto/enchive)** — Encrypted personal archives
 - **[atomashpolskiy/bt](https://github.com/atomashpolskiy/bt)** — BitTorrent library and client with DHT, magnet links, encryption and more
 - **[keon/algorithms](https://github.com/keon/algorithms)** — Minimal examples of data structures and algorithms in Python
 - **[jmapio/jmap](https://github.com/jmapio/jmap)** — JSON Meta Application Protocol Specification (JMAP)
 - **[gendotnew/ai](https://github.com/gendotnew/ai)**
-- **[redox-os/tfs](https://github.com/redox-os/tfs)** — Mirror of https://gitlab.redox-os.org/redox-os/tfs
 - **[ranapat/tasksf](https://github.com/ranapat/tasksf)** — Simple tasks manager factory
 - **[ranapat/ely](https://github.com/ranapat/ely)** — Emit Light and Yell
 - **[cisagov/pshtt](https://github.com/cisagov/pshtt)** — Scan domains and return data based on HTTPS best practices
@@ -901,10 +896,8 @@ js/typescript libs and other web frameworks
 - **[mjswensen/themer](https://github.com/mjswensen/themer)** — 🎨 themer takes a set of colors and outputs themes for your apps (editors, terminals, wallpapers, and more).
 - **[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)** — A book series (2 published editions) on the JS language.
 - **[shekhargulati/30-seconds-of-java](https://github.com/shekhargulati/30-seconds-of-java)** — Curated collection of useful little Java functions that you can understand quickly
-- **[grimfang4/sdl-gpu](https://github.com/grimfang4/sdl-gpu)** — A library for high-performance, modern 2D graphics with SDL written in C.
 - **[mail-in-a-box/mailinabox](https://github.com/mail-in-a-box/mailinabox)** — Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
 - **[jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)** — JupyterLab computational environment.
-- **[OpenDUNE/OpenDUNE](https://github.com/OpenDUNE/OpenDUNE)** — DUNE, REINVENTED
 - **[google/trillian](https://github.com/google/trillian)** — A transparent, highly scalable and cryptographically verifiable data store.
 - **[mathiasbynens/jsesc](https://github.com/mathiasbynens/jsesc)** — Given some data, jsesc returns the shortest possible stringified & ASCII-safe representation of that data.
 - **[segmentio/evergreen](https://github.com/segmentio/evergreen)** — 🌲 Evergreen React UI Framework by Segment
@@ -913,7 +906,6 @@ js/typescript libs and other web frameworks
 - **[toml-lang/toml](https://github.com/toml-lang/toml)** — Tom's Obvious, Minimal Language
 - **[metafizzy/zdog](https://github.com/metafizzy/zdog)** — Flat, round, designer-friendly pseudo-3D engine for canvas & SVG
 - **[calebwin/emu](https://github.com/calebwin/emu)** — The write-once-run-anywhere GPGPU library for Rust
-- **[munki/munki](https://github.com/munki/munki)** — Managed software installation for macOS —
 - **[hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)** — Open-Source API Development Ecosystem • https://hoppscotch.io • Offline, On-Prem & Cloud • Web, Desktop & CLI • Open-Source Alternative to Postman, Insomnia
 - **[didi/booster](https://github.com/didi/booster)** — 🚀Optimizer for mobile applications
 - **[mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)** — Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown
@@ -922,7 +914,6 @@ js/typescript libs and other web frameworks
 - **[lucperkins/rek](https://github.com/lucperkins/rek)** — An easy HTTP client for Go. Inspired by the immortal Requests.
 - **[sonictruth/vr-dos](https://github.com/sonictruth/vr-dos)** — 💾 Virtual Reality DOS
 - **[goplus/xgo](https://github.com/goplus/xgo)** — XGo is a programming language that reads like plain English. But it's also incredibly powerful — it lets you leverage assets from C/C++, Go, Python, and JavaScript/TypeScript, creating a unified software engineering ecosystem. Our vision is to enable everyone to become a builder of the world.
-- **[cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)** — The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
 - **[naptha/tesseract.js](https://github.com/naptha/tesseract.js)** — Pure Javascript OCR for more than 100 Languages 📖🎉🖥
 - **[thedevsaddam/docgen](https://github.com/thedevsaddam/docgen)** — Transform your postman collection to HTML/Markdown documentation
 - **[Trellmor/bind-adblock](https://github.com/Trellmor/bind-adblock)** — Use the BIND DNS server to block ads
@@ -935,9 +926,7 @@ js/typescript libs and other web frameworks
 - **[getzola/zola](https://github.com/getzola/zola)** — A fast static site generator in a single binary with everything built-in. https://www.getzola.org
 - **[GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars)** — 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.
 - **[jschauma/cs631apue](https://github.com/jschauma/cs631apue)** — Stevens Institute of Technology - CS631 Advanced Programming in the UNIX Environment
-- **[Demindiro/agreper](https://github.com/Demindiro/agreper)** — Minimal, no-JS web forum software
 - **[valyala/fastjson](https://github.com/valyala/fastjson)** — Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection
 - **[zitadel/zitadel](https://github.com/zitadel/zitadel)** — ZITADEL - Identity infrastructure, simplified for you.
 - **[josh-blake/pixie](https://github.com/josh-blake/pixie)** — A Raspberry Pi 5 GPS Time Disciplined Stratum 1 Time Server with PTP and Realtime Kernel
-- **[micromdm/micromdm](https://github.com/micromdm/micromdm)** — Mobile Device Management server
 - **[petarov/neverstarget](https://github.com/petarov/neverstarget)** — A list of all your starred repos lists
