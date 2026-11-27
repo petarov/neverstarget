@@ -7,6 +7,8 @@ neverstarget
 
 All of your starred Github projects in one list. You never check on them anyway.
 
+__TOC__
+
 # How to use
 
 1. Create a new, empty repository on GitHub under your **user** account (not an orga).
@@ -26,7 +28,6 @@ All of your starred Github projects in one list. You never check on them anyway.
 3. Make sure GitHub Actions is enabled, i.e., open the repo's **Actions** tab and enable workflows.
 4. The push to `main` starts the **Update README with star lists** workflow. You can also run it any time from **Actions/Run workflow**.
 5. The workflow regenerates `README.md` with your public star lists and commits it back to `main`.
-
-# Starred
+# Star Lists
 
 __STARRED__

@@ -9,6 +9,7 @@ Usage: GITHUB_TOKEN=... uv run build.py <login>
 
 import json
 import os
+import re
 import sys
 import unicodedata
 import urllib.error
@@ -19,6 +20,8 @@ API_URL = "https://api.github.com/graphql"
 TEMPLATE = Path("README.md.template")
 OUTPUT = Path("README.md")
 PLACEHOLDER = "__STARRED__"
+TOC_PLACEHOLDER = "__TOC__"
+HEADING_RE = re.compile(r"^(#{1,6})[ \t]+(.+?)[ \t]*$")
 PAGE = 100
 
 REPO_FIELDS = "__typename ... on Repository { nameWithOwner url description isArchived }"
@@ -171,6 +174,41 @@ def render(lists: list[dict], stars: list[dict]) -> str:
     return "\n".join(lines).rstrip("\n")
 
 
+def github_slug(text: str) -> str:
+    """Mimic GitHub's heading anchors: lowercase, keep \\p{Word}, '-' and ' ', spaces -> '-'."""
+    kept = "".join(
+        c for c in text.lower()
+        if c in "- " or unicodedata.category(c)[0] in "LM" or unicodedata.category(c) in ("Nd", "Pc")
+    )
+    return kept.replace(" ", "-")
+
+
+def render_toc(lines: list[str]) -> list[str]:
+    """Nested bullet list linking every ATX heading in `lines` (code fences skipped)."""
+    toc: list[str] = []
+    seen: dict[str, int] = {}
+    levels: list[int] = []  # heading levels of the current ancestors
+    in_fence = False
+    for line in lines:
+        if line.lstrip().startswith(("```", "~~~")):
+            in_fence = not in_fence
+            continue
+        m = None if in_fence else HEADING_RE.match(line)
+        if not m:
+            continue
+        level, text = len(m.group(1)), m.group(2)
+        slug = github_slug(text)
+        n = seen.get(slug, 0)
+        seen[slug] = n + 1
+        anchor = slug if n == 0 else f"{slug}-{n}"
+        while levels and levels[-1] >= level:
+            levels.pop()
+        label = text.replace("[", "\\[").replace("]", "\\]")
+        toc.append(f"{'  ' * len(levels)}- [{label}](#{anchor})")
+        levels.append(level)
+    return toc
+
+
 def main() -> None:
     if len(sys.argv) != 2:
         sys.exit("Usage: uv run build.py <login>")
@@ -186,7 +224,15 @@ def main() -> None:
 
     block = render(fetch_lists(token, login), fetch_stars(token, login))
     i = idx[0]
-    out = template[:i] + [block] + template[i + 1 :]
+    out = template[:i] + block.split("\n") + template[i + 1 :]
+
+    toc_idx = [i for i, line in enumerate(out) if line.strip() == TOC_PLACEHOLDER]
+    if len(toc_idx) > 1:
+        sys.exit(f"Expected at most one '{TOC_PLACEHOLDER}' line in {TEMPLATE}, found {len(toc_idx)}")
+    if toc_idx:
+        t = toc_idx[0]
+        out = out[:t] + render_toc(out[t + 1 :]) + out[t + 1 :]
+
     OUTPUT.write_text("\n".join(out) + "\n", encoding="utf-8")
 
 

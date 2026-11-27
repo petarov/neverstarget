@@ -7,6 +7,25 @@ neverstarget
 
 All of your starred Github projects in one list. You never check on them anyway.
 
+- [How to use](#how-to-use)
+- [Star Lists](#star-lists)
+  - [🖲AI (81)](#ai-81)
+  - [🖥️ desktop/cli-apps (52)](#️-desktopcli-apps-52)
+  - [🛠️ dev-tools (64)](#️-dev-tools-64)
+  - [🕹️ gfx-&-game-dev (95)](#️-gfx--game-dev-95)
+  - [🩵 go-dev (65)](#-go-dev-65)
+  - [📟hack-&-devices (19)](#hack--devices-19)
+  - [☕️ java-dev (73)](#️-java-dev-73)
+  - [💡 knowledge (84)](#-knowledge-84)
+  - [🤖 MCP (10)](#-mcp-10)
+  - [📱mdm (12)](#mdm-12)
+  - [🎸music-audio (17)](#music-audio-17)
+  - [📦 platforms (43)](#-platforms-43)
+  - [👾 re-game (12)](#-re-game-12)
+  - [🦀 rust-dev (2)](#-rust-dev-2)
+  - [🕸️ web-dev (62)](#️-web-dev-62)
+  - [Other (134)](#other-134)
+
 # How to use
 
 1. Create a new, empty repository on GitHub under your **user** account (not an orga).
@@ -26,8 +45,7 @@ All of your starred Github projects in one list. You never check on them anyway.
 3. Make sure GitHub Actions is enabled, i.e., open the repo's **Actions** tab and enable workflows.
 4. The push to `main` starts the **Update README with star lists** workflow. You can also run it any time from **Actions/Run workflow**.
 5. The workflow regenerates `README.md` with your public star lists and commits it back to `main`.
-
-# Starred
+# Star Lists
 
 ## 🖲AI (81)
 
@@ -926,4 +944,4 @@ js/typescript libs and other web frameworks
 - **[valyala/fastjson](https://github.com/valyala/fastjson)** — Fast JSON parser and validator for Go. No custom structs, no code generation, no reflection
 - **[zitadel/zitadel](https://github.com/zitadel/zitadel)** — ZITADEL - Identity infrastructure, simplified for you.
 - **[josh-blake/pixie](https://github.com/josh-blake/pixie)** — A Raspberry Pi 5 GPS Time Disciplined Stratum 1 Time Server with PTP and Realtime Kernel
-- **[petarov/neverstarget](https://github.com/petarov/neverstarget)** — A list of all your starred repos lists
+- **[petarov/neverstarget](https://github.com/petarov/neverstarget)** — Stores and auto-updates all your starred⭐️ repos lists
