@@ -29,7 +29,7 @@ All of your starred Github projects in one list. You never check on them anyway.
 
 # Starred
 
-## 🖲AI (80)
+## 🖲AI (81)
 
 LLMs, ML, RL, etc.
 
@@ -113,6 +113,7 @@ LLMs, ML, RL, etc.
 - **[storytold/craft-anything](https://github.com/storytold/craft-anything)** — Craft Anything: understand how any software works, and craft your own.
 - **[can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)** — ⌥ Coding agent with the IDE wired in. Built by Stencil Labs.
 - **[0cv/herdr-mobile-relay](https://github.com/0cv/herdr-mobile-relay)** — Approve and monitor Herdr agents remotely from your phone, a mobile web app for Android/iOS smartphones with push notifications, QR setup, and multi-computer relays over Cloudflare, WebRTC or Tailscale connections.
+- **[ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)** — A complete daily plan for studying to become a machine learning engineer.
 
 ## 🖥️ desktop/cli-apps (52)
 
@@ -432,7 +433,7 @@ Golang libs
 - **[jomjol/AI-on-the-edge-device](https://github.com/jomjol/AI-on-the-edge-device)** — Easy to use device for connecting "old" measuring units (water, power, gas, ...) to the digital world
 - **[devbis/z03mmc](https://github.com/devbis/z03mmc)** — Xiaomi LYWSD03MMC Zigbee Firmware
 
-## ☕️ java-dev (72)
+## ☕️ java-dev (73)
 
 Java libs
 
@@ -508,8 +509,9 @@ Java libs
 - **[dylibso/chicory](https://github.com/dylibso/chicory)** — Native JVM WebAssembly runtime
 - **[gradle/gradle-completion](https://github.com/gradle/gradle-completion)** — Gradle tab completion for bash and zsh
 - **[runningcode/gradle-doctor](https://github.com/runningcode/gradle-doctor)** — The right prescription for your Gradle build.
+- **[palatable/lambda](https://github.com/palatable/lambda)** — Functional patterns for Java
 
-## 💡 knowledge (82)
+## 💡 knowledge (84)
 
 Books, data, lists, recipes, etc.
 
@@ -595,6 +597,8 @@ Books, data, lists, recipes, etc.
 - **[dr5hn/countries-states-cities-database](https://github.com/dr5hn/countries-states-cities-database)** — 🌍 Discover our global repository of countries, states, and cities! 🏙️ Get comprehensive data in JSON, SQL, PSQL, SQLSERVER, MONGODB, SQLITE, XML, YAML, and CSV formats. Access ISO2, ISO3 codes, country code, capital, native language, timezones (for countries), and more. #countries #states #cities
 - **[BraveOPotato/NoSignups](https://github.com/BraveOPotato/NoSignups)** — A list of tools that are open-source, in-browser, and require no-signups!
 - **[ericdrowell/BigOCheatSheet](https://github.com/ericdrowell/BigOCheatSheet)**
+- **[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)** — A book series (2 published editions) on the JS language.
+- **[palatable/lambda](https://github.com/palatable/lambda)** — Functional patterns for Java
 
 ## 🤖 MCP (10)
 
@@ -787,7 +791,7 @@ js/typescript libs and other web frameworks
 - **[chartist-js/chartist](https://github.com/chartist-js/chartist)** — Simple responsive charts
 - **[cheeriojs/cheerio](https://github.com/cheeriojs/cheerio)** — The fast, flexible, and elegant library for parsing and manipulating HTML and XML.
 
-## Other (141)
+## Other (134)
 
 - **[kazu-yamamoto/pgpdump](https://github.com/kazu-yamamoto/pgpdump)** — A PGP packet visualizer
 - **[ValyriaTear/ValyriaTear](https://github.com/ValyriaTear/ValyriaTear)** — Open Source J-RPG (Based on the Hero of Allacrost engine)
@@ -800,7 +804,6 @@ js/typescript libs and other web frameworks
 - **[medialize/URI.js](https://github.com/medialize/URI.js)** — Javascript URL mutation library
 - **[adambard/learnxinyminutes-docs](https://github.com/adambard/learnxinyminutes-docs)** — Code documentation written as code! How novel and totally my idea!
 - **[zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** — A Smart Ethernet Switch for Earth
-- **[bramp/js-sequence-diagrams](https://github.com/bramp/js-sequence-diagrams)** — Draws simple SVG sequence diagrams from textual representation of the diagram
 - **[greensock/GSAP](https://github.com/greensock/GSAP)** — GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web
 - **[verekia/initializr](https://github.com/verekia/initializr)** — HTML5 Boilerplate Build Tool
 - **[zzzprojects/sqlfiddle](https://github.com/zzzprojects/sqlfiddle)**
@@ -818,7 +821,6 @@ js/typescript libs and other web frameworks
 - **[h2o/h2o](https://github.com/h2o/h2o)** — H2O - the optimized HTTP/1, HTTP/2, HTTP/3 server
 - **[pgilad/leasot](https://github.com/pgilad/leasot)** — Parse and output TODOs and FIXMEs from comments in your files
 - **[paperjs/paper.js](https://github.com/paperjs/paper.js)** — The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey
-- **[nvie/gitflow](https://github.com/nvie/gitflow)** — `(archived)` Git extensions to provide high-level repository operations for Vincent Driessen's branching model.
 - **[tmux/tmux](https://github.com/tmux/tmux)** — tmux source code
 - **[etcd-io/etcd](https://github.com/etcd-io/etcd)** — Distributed reliable key-value store for the most critical data of a distributed system
 - **[wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)** — A curated list of awesome Android UI/UX libraries
@@ -840,7 +842,6 @@ js/typescript libs and other web frameworks
 - **[concurrencykit/ck](https://github.com/concurrencykit/ck)** — Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+.
 - **[gittup/tup](https://github.com/gittup/tup)** — Tup is a file-based build system.
 - **[mortenjust/cleartext-mac](https://github.com/mortenjust/cleartext-mac)** — A text editor that will help you write clearer and simpler
-- **[auth0/auth0.js](https://github.com/auth0/auth0.js)** — Auth0 headless browser sdk
 - **[vicoyeh/pointers-for-software-engineers](https://github.com/vicoyeh/pointers-for-software-engineers)** — A curated list of topics to start learning software engineering
 - **[a1studmuffin/SpaceshipGenerator](https://github.com/a1studmuffin/SpaceshipGenerator)** — A Blender script to procedurally generate 3D spaceships
 - **[inkle/inky](https://github.com/inkle/inky)** — An editor for ink: inkle's narrative scripting language
@@ -853,13 +854,10 @@ js/typescript libs and other web frameworks
 - **[socketio/engine.io](https://github.com/socketio/engine.io)** — The engine used in the Socket.IO JavaScript server, which manages the low-level transports such as HTTP long-polling and WebSocket.
 - **[aerkalov/ebooklib](https://github.com/aerkalov/ebooklib)** — A versatile Python library for EPUB2/EPUB3 manipulation and processing.
 - **[bitwarden/clients](https://github.com/bitwarden/clients)** — Bitwarden client apps (web, browser extension, desktop, and cli).
-- **[ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers)** — A complete daily plan for studying to become a machine learning engineer.
 - **[sindresorhus/awesome](https://github.com/sindresorhus/awesome)** — 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
 - **[Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)** — List of Computer Science courses with video lectures.
 - **[qiao/PathFinding.js](https://github.com/qiao/PathFinding.js)** — A comprehensive path-finding library for grid based games
 - **[n0shake/Public-APIs](https://github.com/n0shake/Public-APIs)** — 📚 A public list of APIs from round the web.
-- **[palatable/lambda](https://github.com/palatable/lambda)** — Functional patterns for Java
-- **[bitfighter/bitfighter](https://github.com/bitfighter/bitfighter)** — The Bitfighter source code
 - **[jpillora/chisel](https://github.com/jpillora/chisel)** — A fast TCP/UDP tunnel over HTTP
 - **[skeeto/enchive](https://github.com/skeeto/enchive)** — Encrypted personal archives
 - **[atomashpolskiy/bt](https://github.com/atomashpolskiy/bt)** — BitTorrent library and client with DHT, magnet links, encryption and more
@@ -894,7 +892,6 @@ js/typescript libs and other web frameworks
 - **[heynickc/awesome-ddd](https://github.com/heynickc/awesome-ddd)** — A curated list of Domain-Driven Design (DDD), Command Query Responsibility Segregation (CQRS), Event Sourcing, and Event Storming resources
 - **[viatsko/awesome-vscode](https://github.com/viatsko/awesome-vscode)** — 🎨 A curated list of delightful VS Code packages and resources.
 - **[mjswensen/themer](https://github.com/mjswensen/themer)** — 🎨 themer takes a set of colors and outputs themes for your apps (editors, terminals, wallpapers, and more).
-- **[getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)** — A book series (2 published editions) on the JS language.
 - **[shekhargulati/30-seconds-of-java](https://github.com/shekhargulati/30-seconds-of-java)** — Curated collection of useful little Java functions that you can understand quickly
 - **[mail-in-a-box/mailinabox](https://github.com/mail-in-a-box/mailinabox)** — Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.
 - **[jupyterlab/jupyterlab](https://github.com/jupyterlab/jupyterlab)** — JupyterLab computational environment.
